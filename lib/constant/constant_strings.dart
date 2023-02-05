@@ -5,7 +5,7 @@ List<String> startUpCategories = ["unCategorized", "work", "personal", "school"]
 
 mixin ConstantStrings {
 
-  static const String dbPath = "/data/data/com.notesApp.memo.memo/databases/notesDatabase.db";
+  
   static const String GitHubLink = "https://github.com/Hassan-Elamin";
   static const String FacebookLink = "https://www.facebook.com/profile.php?id=100009322796701";
   static const String LinkedInLink = "https://www.linkedin.com/in/hassan-elamin-1053/";
