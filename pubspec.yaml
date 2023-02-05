@@ -1,0 +1,109 @@
+name: memo
+description: A new Flutter project for notes recording.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.3+1
+  google_fonts: ^3.0.1
+  provider: ^6.0.3
+  introduction_screen: ^3.0.2
+  shared_preferences: ^2.0.15
+  flutter_launcher_icons: ^0.11.0
+  intl: ^0.17.0
+  easy_localization: ^3.0.1
+  url_launcher: ^6.1.8
+  simple_animations: ^5.0.0+3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/ico_images/facebook.ico
+    - assets/images/ico_images/git_hub_icon.ico
+    - assets/images/ico_images/linkedin.ico
+    - assets/images/ico_images/whatsapp.ico
+    - assets/images/webp_images/Volcano_Theme_Banner.webp
+    - assets/images/webp_images/app_logo_jpg.webp
+    - assets/images/webp_images/app_logo_png.webp
+    - assets/images/webp_images/arabic_language_banner.webp
+    - assets/images/webp_images/blue_and_black_banner.webp
+    - assets/images/webp_images/dark_Mode_Banner.webp
+    - assets/images/webp_images/dark_purple_mode.webp
+    - assets/images/webp_images/empty_box.webp
+    - assets/images/webp_images/english_banner.webp
+    - assets/images/webp_images/hello.webp
+    - assets/images/webp_images/light_theme_banner.webp
+    - assets/images/webp_images/myLogo.webp
+    - assets/images/webp_images/my_logo_png.webp
+    - assets/images/webp_images/sakura_Theme_Banner.webp
+    - assets/images/webp_images/united-arab-emirates.webp
+    - assets/images/webp_images/united-kingdom.webp
+    - assets/languages/ar.json
+    - assets/languages/en.json
+
+  fonts:
+    # exo font
+    - family: Exo
+      fonts:
+        - asset: assets/fonts/Exo/Exo-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Exo/Exo-BlackItalic.ttf
+          weight: 900
+          style: italic
+        - asset: assets/fonts/Exo/Exo-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Exo/Exo-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Exo/Exo-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Exo/Exo-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Exo/Exo-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Exo/Exo-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Exo/Exo-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Exo/Exo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Exo/Exo-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Exo/Exo-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Exo/Exo-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Exo/Exo-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Exo/Exo-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Exo/Exo-SemiBoldItalic.ttf
+          style: italic
+          weight: 600
+        - asset: assets/fonts/Exo/Exo-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Exo/Exo-ThinItalic.ttf
+          style: italic
+          weight: 100
